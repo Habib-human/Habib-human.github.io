@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Engineering Graduate Student</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            transition: 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #4ca1af;
+        }
+        
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 2rem;
+            border: 5px solid #4ca1af;
+        }
+        
+        .section {
+            margin: 2rem 0;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #4ca1af;
+            padding-bottom: 0.5rem;
+        }
+        
+        .research-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+        
+        .skill-tag {
+            background: #e0f7fa;
+            color: #2c3e50;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="https://github.com/Habib-human/" target="_blank">GitHub</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <h1>Graduate Student in Chemical Engineering</h1>
+            <p>University of Rochester</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="profile-section">
+            <img src="/api/placeholder/400/400" alt="Profile Picture" class="profile-image">
+            <h2>About Me</h2>
+            <p>I am a passionate Chemical Engineering graduate student at University of Rochester, focusing on developing bioinformatic pipeline that can answer horizontal transfer of plasmid between bacteria to fight against antibiotic resistance .</p>
+            
+            <div class="skills-container">
+                <span class="skill-tag">Bioinformatics</span>
+                <span class="skill-tag">Genetic Engineering</span>
+                <span class="skill-tag">R</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Matlab</span>
+                <span class="skill-tag">Data Analysis</span>
+                <span class="skill-tag">Machine Learning</span>
+
+            </div>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Research Focus</h2>
+            <div class="research-item">
+                <h3>Plasmid Annotation Pipeline</h3>
+                <p>Creating a Plasmid Annotation pipeline that can annotate large natural plasmids with 100% accuracy</p>
+            </div>
+            <div class="research-item">
+                <h3>Plasmid Acquisition Cost model</h3>
+                <p>Developing a machine learning model to predict palsmid acquisition cost from sequence data.</p>
+            </div>
+            <div class="research-item">
+                <h3>Bacterial model for parkinson's disease</h3>
+                <p>Creating bacterial model that has the PD gene hallmarks</p>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Selected Publications</h2>
+            <ul>
+                <li>"PlasAnn, a curated and highly accurate plasmid annotation program, reveals novel associations of plasmid-encoded functions" (2025)</li>
+                <li>"Chemical upcycling of plastics as a solution to the plastic trash problem for an ideal, circular polymer economy and energy recovery
+                    Authors" (2024)</li>
+                <li>"Purine and pyrimidine synthesis differently affect the strength of the inoculum effect for aminoglycoside and β-lactam antibiotics" (2024)</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div>
+                <h3>Ph.D. in Chemical Engineering</h3>
+                <p>University of Rochester, Expected 2028</p>
+            </div>
+            <div>
+                <h3>M.S. in Chemical Engineering</h3>
+                <p>University of Rochester, 2025</p>
+            </div>
+            <div>
+                <h3>B.S. in Biomedical Engineering</h3>
+                <p>Military Institute of Science and Technology, 2021</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: hislam2@ur.rochester.edu</p>
+            <p>Office: Gavett hall, Room 303</p>
+            <p>University of Rochester, Department of Chemical Engineering</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Chemical Engineering Graduate Student at University of Rochester</p>
+        </div>
+    </footer>
+</body>
+</html>
